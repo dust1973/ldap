@@ -1,0 +1,46 @@
+*{
+margin:0;
+
+}
+body, input {
+font-family:arial;
+font-size:11px;
+padding:20px;
+}
+td {
+border:1px solid #333;
+padding:5px;
+}
+th {
+border:1px solid #333;
+background-color:#eee;
+padding:5px;
+}
+.gerade {
+background-color:#eee;
+}
+input {
+border:1px solid #333;
+
+padding:3px;
+display:none;
+}
+p {
+padding:3px;
+}
+.td_bearbeiten input {
+border:1px solid red;
+width:100%;
+padding:1px;
+display:inline;
+font-size:0.9em;
+}
+
+form .td_speichern input {
+display:none;
+}
+
+#submit {
+display:inline;
+
+}
